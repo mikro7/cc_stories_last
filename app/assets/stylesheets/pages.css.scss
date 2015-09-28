@@ -28,7 +28,11 @@ background-color:#2E72BD;
 }
 
 .home-main {
+<<<<<<< HEAD
 background:url(https://stories-rails.herokuapp.com/assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg) no-repeat center center;
+=======
+background:url(https://stories-rails.herokuapp.com//assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg) no-repeat center center;
+>>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
 background-size:cover;
 height:700px;
 }
@@ -67,13 +71,21 @@ margin-top:30px;
 }
 
 .home-secondary {
+<<<<<<< HEAD
 background:url(https://stories-rails.herokuapp.com/assets/home-secondary-afc0677adb14766e42df768244930249.jpg) no-repeat center center;
+=======
+background:url(https://stories-rails.herokuapp.com//assets/home-secondary-afc0677adb14766e42df768244930249.jpg) no-repeat center center;
+>>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
 background-size:cover;
 height:500px;
 }
 
 .about-main {
+<<<<<<< HEAD
 background:url(https://stories-rails.herokuapp.com/assets/about-main-5d7831840429815fe86338dd0b2918a8.jpg) no-repeat center center;
+=======
+background:url(https://stories-rails.herokuapp.com//assets/about-main-5d7831840429815fe86338dd0b2918a8.jpg) no-repeat center center;
+>>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
 background-size:cover;
 height:700px;
 }
@@ -96,6 +108,28 @@ font-size:21px;
 font-weight:100;
 }
 
+<<<<<<< HEAD
+=======
+.contact-main {
+background:url(https://stories-rails.herokuapp.com//assets/contact-main-9fb04617516938f849971735fed62270.jpg) no-repeat center center;
+background-size:cover;
+height:700px;
+}
+
+.contact-main .content {
+position:relative;
+top:150px;
+text-align:center;
+}
+
+.contact-main h1 {
+color:#fff;
+font-weight:100;
+margin-bottom:30px;
+text-shadow:0 2px 3px rgba(0,0,0,0.4);
+}
+
+>>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
 .footer {
 background-color:#f9f9f9;
 border-top:solid 1px #F5F5F5;
@@ -146,3 +180,28 @@ left:30px;
 cursor:pointer;
 }
 
+<<<<<<< HEAD
+=======
+form {
+text-align:left;
+}
+
+.form-control,.btn-default {
+background-color:rgba(255,255,255,0.8);
+border-radius:0;
+}
+
+.form-control {
+font-size:18px;
+}
+
+.form-group label {
+font-size:16px;
+color:#fff;
+}
+
+.form-group input {
+padding:20px 10px;
+font-size:20px;
+}
+>>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea

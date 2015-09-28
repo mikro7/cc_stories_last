@@ -28,10 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-<<<<<<< HEAD
     bootstrap_form (2.3.0)
-=======
->>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -55,14 +52,11 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-<<<<<<< HEAD
     minitest (5.8.1)
     multi_json (1.11.2)
     pg (0.18.1)
-=======
     minitest (5.8.0)
     multi_json (1.11.2)
->>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
     polyglot (0.3.5)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -77,14 +71,11 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.1)
       sprockets-rails (~> 2.0)
-<<<<<<< HEAD
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.4)
     rails_stdout_logging (0.0.4)
-=======
->>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
     railties (4.1.1)
       actionpack (= 4.1.1)
       activesupport (= 4.1.1)
@@ -131,7 +122,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   bootstrap_form
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
@@ -139,12 +129,10 @@ DEPENDENCIES
   pg (= 0.18.1)
   rails (= 4.1.1)
   rails_12factor
-=======
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.1)
->>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring

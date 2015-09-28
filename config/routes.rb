@@ -6,8 +6,6 @@ Rails.application.routes.draw do
   post "signups" => 'signups#create'
   resources :signups
   get "/thanks" => 'signups#thanks'
-  
-=======
   get "about" => 'pages#about'
   get "contact" => 'pages#contact'
 >>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea

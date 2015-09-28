@@ -10,7 +10,7 @@ class SignupsController < ApplicationController
     	redirect_to thanks_path
     end
   end
-  
+ 
   private 
     def signup_params
       params.require(:signup).permit(:firstname, :email)

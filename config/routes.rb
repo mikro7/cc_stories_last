@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root :to => 'pages#home'
-<<<<<<< HEAD
   get "/about" => 'pages#about'
   get "/signups/new" => 'signups#new'
   post "signups" => 'signups#create'

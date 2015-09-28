@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stories</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<body>
+	<div class="menu"> 
+    <ul> 
+      <li>
+        <%= link_to "Home", root_path %>
+        <!-- <a href="/">Home</a> -->
+      </li> 
+      <li>
+        <%= link_to "About", about_path %>
+        <!-- <a href="/about">About</a> -->
+      </li> 
+      <li>
+        <%= link_to "Contact", "/signups/new" %>
+        <!-- <a href="/signups/new">Contact</a> -->
+      </li> 
+    </ul> 
+    <img alt="Close" class="icon-close" src="https://stories-rails.herokuapp.com/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px"> 
+  </div>     
+<%= yield %>
+	<div class="footer"> 
+    <div class="container"> 
+      <p>A Shutterbugg Project</p> 
+    </div> 
+  </div>
+  <script data-turbolinks-track="true" src="https://stories-rails.herokuapp.com/assets/application-5ec8317a69c812470d7789bf2f91d0dd.js"></script>
+</body>
+</html>

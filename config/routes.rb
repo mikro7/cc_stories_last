@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   get "/thanks" => 'signups#thanks'
   get "about" => 'pages#about'
   get "contact" => 'pages#contact'
->>>>>>> 1bd81e5c3125c98b1843b596e3fd1cd322b046ea
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
